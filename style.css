@@ -1,0 +1,446 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+.navbar{
+    display: flex;
+    gap: 10px;
+    transition: 0.4s;
+}
+.logo{
+    width: 12vw;
+    height: 12vh;
+}
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.L-content{
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+}
+.L-content h1{
+    font-size: 3vw;
+    color: crimson;
+}
+.title h3{
+    color: rgb(226, 20, 61);
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 75vw;
+    height: 12vh;
+    transition: 0.4s;
+}
+nav a{
+    text-decoration: none;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6vw;
+    color: red;
+    transition: 0.4s ease-in-out;
+}
+nav a:hover{
+    color: dodgerblue;
+    font-size: 2vw;
+}
+.sidebar{
+    width: 7vw;
+    height: 10vh;
+   display: none;
+   cursor: pointer;
+}
+.sidebar img {
+    width: 100%;
+    height: 85%;
+}
+.title1{
+    display: none;
+    color: azure;
+}
+.navbar1{
+    height: 100vh;
+    background-color: red;
+    transition: 0.4s;
+}
+.container{
+width: 100vw;
+height: 130vh;
+display: flex;
+flex-direction: column;
+}
+.image{
+    width: 100%;
+    height: 80%;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+.content{
+    width: 100%;
+    height: 50%;
+  display: flex;
+  margin-top: 10px;
+}
+.hov{
+    display: flex;
+    justify-content:center;
+    gap: 12px;
+    height: 4vh;
+}
+.left{
+    width:50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.About{
+    height: 90vh;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+}
+.logo2 h2{
+    font-size: 2vw;
+    color: red;
+    text-align: center;
+}
+.About-Left{
+    width: 100%;
+    height: 40%;
+}
+.About-Right{
+    width: 100%;
+    height: 60%;
+}
+.About-Right img {
+    width: 100%;
+    height: 100%;
+}
+.logo4 h2{
+    text-align: center;
+    color:#008CBA;
+    font-size: 2vw;
+}
+
+.para{
+    width: 70%;
+}
+.para p{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 1.7vw;
+ font-weight: 600;
+}
+.right{
+    width: 50%;
+    height:100%;
+}
+.right img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo1{
+    width: 70%;
+    height: 30%;
+}
+.content1{
+    width: 90vw;
+}
+.content1 p{
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+}
+.logo1 h3{
+    text-align: center;
+    font-size: 2vw;
+    color: red;
+}
+.logo1 img{
+    width: 100%;
+    height: 100%;
+}
+button{
+ cursor: pointer;
+background-color: aliceblue;
+border: none;
+}
+.services{
+    display: flex;
+    width: 99vw;
+    height: 50vh;
+    flex-direction: column;
+}
+.box-head{
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 2vw;
+    font-weight: 800;
+}
+.box-container{
+    display: flex;
+    width: 100%;
+    height: 90%;    
+}
+.box{
+    width: 33%;
+    height: 99%;
+    transition: 0.5s;
+}
+.box1{
+background: none;
+}
+
+.box p{
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+}
+.box h2{
+    color: red;
+    font-size: 2vw;
+    cursor: pointer;
+}
+.box a{
+    text-decoration: none;
+}
+.box a h2{
+    color: #008CBA;
+    transition: 0.4s;
+}
+.box a h2:hover{
+    color: blueviolet;
+}
+#cricket{
+    background-image: url('./images/CRICKET.jpg');
+    background-size: 100% 100%;
+}
+#football{
+    background-image: url('./images/KDB.jpg');
+    background-size: 100% 100%;
+}
+#others{
+    background-image: url('./images/ground.webp');
+    background-size: 100% 100%;
+}
+#others h2{
+    color: dodgerblue;
+}
+footer{
+    display: flex;
+    height: 20vh;
+    width: 100vw;
+    justify-content: space-between;
+    background-color: dodgerblue;
+}
+.logo3{
+    width: 12vw;
+    height: 100%;
+}
+.logo3 img {
+    width: 100%;
+    height: 80%;
+    margin-top: 6px;
+}
+.heading{
+    font-size: 2vw;
+    width: 30vw;
+}
+.L-head h1{
+    text-align: center;
+
+}
+
+
+@media (max-width:950px) {
+    .para p{
+        font-size: 2.4vh;
+            }
+            .logo1 h3{
+                font-size: 2vh;
+            }       
+            nav a{
+                font-size: 2vh;
+            } 
+            .box-head{
+                font-size: 3vh;
+            }
+            .box p{
+                font-size: 2.4vh;
+                font-weight: 500;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               color: blueviolet;
+            }
+            .box h2{
+                font-size: 2vh;
+            }
+            .logo2 h2{
+                font-size:2vh;
+            }
+            .logo4 h2{
+                font-size: 2vh;
+            }
+            .content1 p{
+                font-weight: 500;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 2vh;
+            }
+            .L-content h1{
+                font-size: 3vh;
+            }
+            
+        }
+@media (max-width:600px) {
+    .sidebar {
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav{
+        flex-direction: column;
+         display: flex;
+         height: 50vh;
+         width: 60vw; 
+         justify-content: center;
+         border: 2px solid lightgrey;
+         align-items: center;
+         margin: 6rem;
+         transition: 0.4s;
+         background-color: grey;
+    }
+    .logo{
+        width: 15vw;
+        height: 15vh;
+    }
+    .logo img{
+        width:100px;
+        height:100px;
+    }
+    .sidebar img{
+        width: 80px;
+        height: 80px;
+    }
+    .nav a{
+        font-size: 2vh;
+    }
+    .nav a:hover{
+        font-size: 2.4vh;
+    }
+    .logo1 h3{
+        text-align: center;
+        font-size: 2vh;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width:100%;
+    }
+    button img{
+        width: 10;
+    }
+    .para{
+        width: 70%;
+    }
+    .para p{
+        font-size: 2vh;
+    }
+    .logo1{
+        width: 90%;
+    }
+    .box-head{
+        font-size: 2vh;
+    }
+    .box-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90%;    
+    }
+    .box{
+        width: 100%;
+        height: 33%;
+    }
+    .services{
+        height: 60vh;
+    }
+    .box p{
+        font-size: 2vh;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .box h2{
+        font-size: 2vh;
+    }
+    .logo2 h2{
+        font-size:2vh;
+    }
+    .logo3 img {
+        width: 100px;
+        height: 100px;
+    }
+    .box a{
+        text-decoration: none   ;
+    }
+    .box a h2{
+        color: red;
+        font-weight: bold;
+    }
+}
+@media (max-width:420px) {
+    .nav{
+        height:40vh;
+        margin-top: 150px;
+        width: 7rem;
+    }
+    .para{
+        width: 100%;
+    }
+    .image{
+        width: 100vw;
+    }
+    .box-head{
+        font-size: 2vh;
+    }
+    .box p{
+        font-size: 2vh;
+        font-weight: 500;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .box h2{
+        font-size: 2vh;
+    }
+    #others h2{
+        color: dodgerblue;
+    }
+    .logo2 h2{
+        font-size:2vh;
+    }
+}
